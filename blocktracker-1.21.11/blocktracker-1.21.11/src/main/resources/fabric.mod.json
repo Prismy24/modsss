@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blocktracker",
+  "version": "${version}",
+  "name": "Block Tracker",
+  "description": "Outlines chosen block types around you. Toggle with K, configure with /track.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.blocktracker.BlockTrackerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
